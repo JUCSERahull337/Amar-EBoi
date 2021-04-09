@@ -11,7 +11,7 @@ const AddBook = () => {
     const { register, handleSubmit, watch, errors } = useForm();
     
     const onSubmit = data => {
-        console.log(data)
+        console.log("imgData",data)
         const bookData = {
             bookName: data.name,
             price: data.price,
@@ -54,8 +54,8 @@ const AddBook = () => {
 
             <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="dataField d-flex flex-column">
-                    <input name="name" placeholder="Book Name" {...register('name')} />
-                    <input name="price" placeholder="Price" {...register('price')} />
+                    <input name="name" defaultValue="Book Name" ref={register} />
+                    <input name="price" type="number" placeholder="Price" ref={register} />
                     <input name="image" type="file" onChange={handleImageUpload} />
                     {errors.exampleRequired && <span>This field is required</span>}
                     <input type="submit" />
