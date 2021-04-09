@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "Name": "Harry Potter and The Order of The Phoenix",
+        "imgUrl": "https://image.scoopwhoop.com/w360/s3.scoopwhoop.com/anj/books/418243985.jpg.webp",
+        "Author": "J K Rowling",
+        "Price": 240
+    },
+    {
+        "id": 2,
+        "Name": "Harry Potter and The Philosopher's Stone",
+        "imgUrl": "https://static-01.daraz.com.bd/p/88c8fe011aa2683f66e43efe9922dafc.jpg",
+        "Author": "J K Rowling",
+        "Price": 250
+    },
+    {
+        "id": 3,
+        "Name": "Harry Potter and The Chamber of Secrets",
+        "imgUrl": "https://hpmedia.bloomsbury.com/rep/s/9781408855904_309575.jpeg",
+        "Author": "J K Rowling",
+        "Price": 300
+    }, 
+    {
+        "id": 4,
+        "Name": "Harry Potter and The Half-Blood Prince",
+        "imgUrl": "https://dynamic.indigoimages.ca/books/1408855941.jpg?quality=85&width=380&maxheight=515&lang=en",
+        "Author": "J K Rowling",
+        "Price": 350
+    },
+    {
+        "id": 5,
+        "Name": "Harry Potter and The Goblet of Fire",
+        "imgUrl": "https://images-na.ssl-images-amazon.com/images/I/819K3dLQHpL.jpg",
+        "Author": "J K Rowling",
+        "Price": 550
+    },
+    {
+        "id":6,
+        "Name": "Harry Potter and The Prisoner of Azkaban",
+        "imgUrl": "https://hpmedia.bloomsbury.com/rep/s/9781408855911_309576.jpeg",
+        "Author": "J K Rowling",
+        "Price": 320
+    },
+    {
+        "id":7,
+        "Name": "Harry Potter and The Deathly Hallows",
+        "imgUrl": "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/65/650/5225/12/6/248982040/248982040_1_1_720x928.jpg",
+        "Author": "J K Rowling",
+        "Price": 300
+    },
+    {
+        "id":8,
+        "Name": "The Alchemist",
+        "imgUrl": "https://img.theculturetrip.com/450x/smart/wp-content/uploads/2015/06/alchemist.jpg",
+        "Author": "Paulo Coelho",
+        "Price": 370
+    }
+]

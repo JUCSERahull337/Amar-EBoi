@@ -1,0 +1,15 @@
+.card img{
+    width: 300px;
+    height: 300px;
+    border: rgb(214, 195, 21) 2px solid;
+    margin-top: 5px;
+}
+span{
+    background: lightgray;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.books-card{
+    border: 1px solid red;
+}

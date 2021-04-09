@@ -1,0 +1,33 @@
+/* nav a:hover{
+    background-color: lightgray;
+}
+nav a {
+    color: darkorange;
+} */
+.navLink h4{
+    padding: 5px 30px;
+}
+
+.navLink {
+    padding-right: 50px;
+}
+
+.navLogo {
+    padding: 10px 50px;
+    /* border: 0.1px inset white; */
+    box-shadow: 2px 2px 5px white;
+}
+
+.loginBtn {
+    margin: 10px;
+}
+
+@media (max-width: 720px) {
+    .navDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 3px;
+        margin: 3px;
+    }
+  }

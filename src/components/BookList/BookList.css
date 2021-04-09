@@ -1,0 +1,6 @@
+.BookNameField {
+    display: flex;
+    flex-direction: columns;
+    
+    margin-left: -150px;
+}

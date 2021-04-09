@@ -1,0 +1,38 @@
+/* .card img{
+    width: 300px;
+    height: 300px;
+    border: rgb(214, 195, 21) 2px solid;
+    margin-top: 5px;
+}
+span{
+    border: 1px solid black;
+    font-size: 20px;
+
+} */
+/* .books-card{
+    border: black 2px slide;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+.bookCard {
+    margin: 20px 20px 20px 60px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 8px gray;
+    width: 350px;
+}
+
+.bookCard h4 {
+    margin-top: 10px;
+}
+
+.bookCard img {
+    width: 220px;
+    height: 220px;
+}
+
+.Footer {
+    margin-top: 20px;
+}
