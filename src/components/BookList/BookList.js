@@ -6,6 +6,7 @@ const BookList = (props) => {
     const { bookName, _id } = props.data
 
     const deleteBook = id => {
+        console.log('bookid',id)
         const url = `https://obscure-falls-34966.herokuapp.com/deleteBook/${id}`;
 
         fetch(url, {
