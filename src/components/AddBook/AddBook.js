@@ -17,6 +17,7 @@ const AddBook = () => {
             price: data.price,
             imageUrl: imageUrl
         }
+        console.log("bookdata",bookData.imgUrl)
 
         const url = 'https://obscure-falls-34966.herokuapp.com/addBook';
         fetch(url, {
